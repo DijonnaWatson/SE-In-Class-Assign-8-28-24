@@ -8,6 +8,7 @@ public class Fibonacci {
 	private int findNthFib(int nthFib) {
 		int currentFib = 1;
 		int prevFib = 0;
+		//declare the currentFib outside loop
 		for (int i = 0; i < nthFib; i++) {
 			int nextFib = currentFib + prevFib;
 			prevFib = currentFib;
